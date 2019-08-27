@@ -21,6 +21,7 @@ share:
   toGplus: "Share to Google+"
   toWeibo: "Share to Weibo"
   toQQ: "Share to QQ"
+  QR: "Scan QR Code to Share"
 post:
   continue: "Read more"
   posted: "Published at"

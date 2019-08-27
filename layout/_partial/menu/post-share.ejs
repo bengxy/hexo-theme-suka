@@ -49,10 +49,11 @@
         <a href="https://t.me/share/url?url=<%= config.url + url_for(page.path).replace('index.html', '').replace(config.root, '/') %>&text=<%- config.title %>" target="_blank" rel="external noopener noreferrer nofollow"><%= __('share.toTelegram') %></a>
     </li>
     <% } %>
-
+	<hr />
     <!-- QRCode -->
     <% if(theme.qrcode.post_share === true) { %>
     <li class="menu-item">
+		<%= __('share.QR') %>
         <img src="<%- qrcode(url, {margin: 2, size: 4}) %>" alt="QRCode">
     </li>
     <% } %>

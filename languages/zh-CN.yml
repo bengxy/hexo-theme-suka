@@ -21,6 +21,7 @@ share:
   toGplus: "分享到 Google+"
   toWeibo: "分享到微博"
   toQQ: "分享到 QQ"
+  QR: "扫码分享"
 post:
   continue: "阅读全文"
   posted: 本文发表于
