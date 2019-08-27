@@ -49,7 +49,7 @@ hexo.extend.helper.register('suka_descr', function () {
 hexo.extend.helper.register('suka_tags', function () {
     let sukaTags;
 	if (this.theme.head.keywords) {
-		sukaTags = this.theme.head.keywords;
+        sukaTags = this.theme.head.keywords;
 	} else if (this.config.keywords) {
         sukaTags = this.config.keywords;
     } else {
